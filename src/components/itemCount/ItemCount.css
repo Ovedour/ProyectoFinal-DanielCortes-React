@@ -1,0 +1,72 @@
+.contador_cantidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #667934 solid 2px;
+    border-radius: 20px;
+    margin: 10px 200px;
+}
+
+.contador_cantidad p{
+    width: 100px;
+    color: #fff;
+    font-size: 18px;
+        font-weight: 600;
+    text-align: center;
+}
+
+.contador_cantidad button{
+    border-color: transparent;
+    background-color: transparent;
+    width: 80px;
+    color: #667934;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.stock_disponible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: #63829c;
+}
+
+.stock_disponible span{
+    font-weight: 600;
+}
+
+
+.contador_agregar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador_agregar button{
+    padding: 6px 100px;
+    margin-top: 20px;
+    background-color: #667934;
+    color: #1c1e1f;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.agregar_icono{
+    font-size: 20px;
+}
+
+.contador_agregar button:hover{
+    color: #efefef;
+}
+
+
+
+
+

@@ -1,0 +1,34 @@
+.botones_categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones_categorias button{
+    width: 90%;
+    padding: 4px;
+    font-size: 18px;
+    background-color: #667934;
+    border: #273139 0.5px solid;
+}
+
+.link_categoria{
+    color: #1c1e1f;
+    font-weight: 600;
+}
+
+.link_categoria:hover{
+    color: #fff;
+}
+
+.link_categoria:focus{
+    color: #fff;
+}
+
+.cartas_productos{
+    padding: 0px 50px;
+    display: grid; 
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
+    grid-template-rows: 4fr; 
+    gap: 10px; 
+}
